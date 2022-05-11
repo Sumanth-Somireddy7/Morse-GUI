@@ -128,7 +128,7 @@ def delLabel():
 
 #Display function on closing Application
 def on_closing():
-    messagebox.showinfo("Info", "\nProject by :- Sumanth Somireddy & Komal Kumar Penti \n Guided by :- Mrs. K. SitaKumari Ma'am \n College :- Velagapudi Ramakrishna Siddhartha Engineering College\n Branch :- Information Technology")
+    messagebox.showinfo("Info", "\nProject by :- Sumanth Somireddy, B.Gajalakshmi \n Guided by :- Mrs. K. SitaKumari Ma'am \n College :- Velagapudi Ramakrishna Siddhartha Engineering College\n Branch :- Information Technology")
     root.destroy()
 
 
@@ -200,7 +200,7 @@ deletetext.pack(padx = 0.1)
 websitelink.pack(side = 'bottom', fill = 'x', expand = 'true')
 websitelink.bind("<Button-1>", lambda e:openbrowser())
 
-credits = Label(root, text = "Developed by Sumanth Somireddy & Komal Kumar Penti", font = ('Segoe UI',15), bg = '#E6E6FA')
+credits = Label(root, text = "Developed by Sumanth Somireddy & B.Gajalakshmi", font = ('Segoe UI',15), bg = '#E6E6FA')
 credits.pack(side = 'bottom', fill = 'y', expand = 'true')
 
 #Display message on closing the application
